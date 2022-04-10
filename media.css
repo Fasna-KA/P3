@@ -1,0 +1,104 @@
+.mi{
+    display: inline-block;
+    position: relative;
+    left: 20vw;
+    top: 20vh;
+    width: 15vw;
+    height: 45vh;
+    margin: 20px;
+    border: 1px solid rgb(249, 140, 140);
+    border-radius: 10px;
+    padding: 40px 0px 0px 30px;
+    box-shadow: 10px 10px 15px grey;
+    position: relative;
+    top: 30vh;
+    left: 28vw;
+    width: 20vw;
+    padding-left: 10vw;
+    box-shadow: 1px 0px 10px grey;
+
+
+}
+.m{
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+@media(max-width:947px){
+    .mi{
+        visibility: visible;
+        width: auto;
+        height: 50vh;
+    
+    }
+    .m{
+        display: block;
+        width: auto;
+    }
+    .i2{
+        visibility: hidden;
+    }
+    .p1{
+        visibility: hidden;
+    }
+    .b2{
+        visibility: hidden;
+    }
+
+    .h1{
+        visibility: hidden;
+    
+    }
+    .h2{
+        visibility:hidden;
+    }
+    .item{
+        visibility: hidden;
+    }
+    .b{
+        visibility: visible;
+        position: relative;
+        left: 10vw;
+
+    }
+
+}
+.bb{
+    position: absolute;
+    top: 12vh;
+    left:4vw;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+
+}
+@media(max-width:947px){
+.bb{
+    visibility: visible;
+    top: 3vh;
+    left:-6vw;
+   }
+
+   .bbb{
+       visibility: visible;
+       top:3vh;
+       left: 10px;
+    
+   }
+}
+
+.bbb{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+
+}

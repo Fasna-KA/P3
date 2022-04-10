@@ -1,0 +1,255 @@
+body{
+    width: 80vw;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    display: inline;
+}
+.p{
+    position: relative;
+    top: 20vh;
+    left: 21vw;
+    font-size: 60px;
+
+}
+font{
+    font-weight: lighter;
+    color: grey;
+}
+.b{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+.item{
+    color: red;
+    font-size: 40px;
+
+}
+.i{
+    position: relative;
+    top: 13vh;
+    left: 64vw;
+
+}
+.v{
+    position: relative;
+    bottom: 7vh;
+    left: 3vw;
+}
+.item1{
+    display: inline-block;
+    position: relative;
+    left: 20vw;
+    top: 20vh;
+    width: 15vw;
+    height: 45vh;
+    margin: 20px;
+    border: 1px solid rgb(249, 140, 140);
+    border-radius: 10px;
+    padding: 40px 0px 0px 30px;
+    box-shadow: 10px 10px 15px grey;
+}
+
+.i1{
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+}
+.i2{
+    color: red;
+    font-size: 30px;
+    text-decoration: line-through;
+
+}
+.b1{
+    position: relative;
+    left: -10px;
+    height:15px;
+}
+.b2{
+    height: 17px;
+    margin-right: 10px;
+}
+.p1{
+    display: inline;
+    font-size: 20px;
+}
+
+/* LIST CSS */
+.blur{
+    filter: blur(10px);
+}
+
+.list{
+    z-index: 2;
+    position: absolute;
+    left: 40vw;
+    top: 40vh;
+    width: 20vw;
+    height: 20vh;
+    color: red;
+    font-size: 25px;
+    border: 1px solid rgb(249, 140, 140);
+    box-shadow: 5px 5px 15px grey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    
+}
+input{
+    border-color: rgb(218, 128, 128);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.b1{
+    width: 70px;
+    padding:10px 0 25px ;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+   
+}
+
+/* TRIP CSS */
+
+.position{
+    position: absolute;
+    top: 10%;
+    left: 35vw;
+    /* display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: center; */
+    text-align: center;
+}
+.h1{
+    display: inline-block;
+    position: absolute;
+    width: 15vw;
+    left: -17vw;
+    top: 3vh;
+}
+.h2{
+    display: inline-block;
+    position: absolute;
+    width: 15vw;
+    left: 21vw;
+    top: 3vh;
+
+
+}
+.trip{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.trip1{
+    position: relative;
+    top: 30vh;
+    left: 28vw;
+    width: 20vw;
+    padding-left: 10vw;
+    box-shadow: 1px 0px 10px grey;
+
+}
+
+.arw{
+    width: 15vw;
+    position: relative;
+    top: -31px;
+    right: -5px;
+}
+
+/* add button at trip */
+.ii{
+    position: relative;
+    top: 15vh;
+    left: 55vw;
+}
+.list1{
+    position: absolute;
+    left: 33vw;
+}
+.grid-c{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+@media all and (max-width:947px){
+    h1{
+        grid-template-columns: auto;
+    }
+    .grid-c{
+        display: inline-block;
+        grid-template-columns: auto;
+
+    }
+    .item1{
+        width: 400px;
+        height: 10vh;
+        border: none;
+
+    }
+    .i1{
+        color: grey;
+    }
+    .v1{
+        visibility: hidden;
+    }
+    .b{
+        visibility: visible;
+        position: relative;
+        left: 8vw;
+
+    }
+
+}
+@media (max-width:540px) {
+    .p{
+        display: inline-block;
+    }
+}
+
+@media (max-width:950px) {
+    .v{
+        visibility: hidden;
+    }
+
+}
+@media(max-width:780px){
+    .list{
+        width: auto;
+        height: auto;
+    }
+}
+.ii2{
+    color: red;
+    font-size: 30px;
+    text-decoration: line-through;
+
+}
+.bb2{
+    height: 17px;
+    margin-right: 10px;
+
+}
+.pp1{
+    display: inline;
+    font-size: 20px;
+
+
+}
+
